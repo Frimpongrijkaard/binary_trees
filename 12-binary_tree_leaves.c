@@ -2,10 +2,10 @@
 
 /**
  * binary_tree_leaves - counts the leaves in a binary tree
- * @tree: tree to count the leaves from
+ * @tree: the leaves from which the tree is count
  *
  * Return: number of leaves
- *         0 if tree is NULL
+ *         0 when tree is NULL
  */
 size_t binary_tree_leaves(const binary_tree_t *tree)
 {

@@ -1,11 +1,11 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_size - measures the size of a binary tree
- * @tree: tree to measure the size of
+ * binary_tree_size - the size of a binary tree to be measured
+ * @tree: tree measure the size 
  *
- * Return: size of the tree
- *         0 if tree is NULL
+ * Return: size  tree
+ *         0 when tree is NULL
  */
 size_t binary_tree_size(const binary_tree_t *tree)
 {

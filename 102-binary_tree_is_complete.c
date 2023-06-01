@@ -4,9 +4,9 @@
  * binary_tree_is_complete - checks if a binary tree is complete
  * @tree: a pointer to the root node of the tree to check
  *
- * Return: 1 if the tree is complete
- *         0 if the tree is not complete
- *         0 if tree is NULL
+ * Return: 1 when tree is complete
+ *         0 when tree is not complete
+ *         0 when tree is NULL
  */
 int binary_tree_is_complete(const binary_tree_t *tree)
 {
@@ -20,14 +20,14 @@ int binary_tree_is_complete(const binary_tree_t *tree)
 }
 
 /**
- * btic_helper - checks if a binary tree is complete
- * @tree: a pointer to the root node of the tree to check
- * @index: node index to check
- * @size: number of nodes in the tree
+ * btic_helper - checks when binary tree is complete
+ * @tree: checking the node if the tree
+ * @index: node index 
+ * @size: the size of node in the tree
  *
- * Return: 1 if the tree is complete
- *         0 if the tree is not complete
- *         0 if tree is NULL
+ * Return: 1 when tree is complete
+ *         0 when tree is not complete
+ *         0 when tree is NULL
  */
 int btic_helper(const binary_tree_t *tree, size_t index, size_t size)
 {
@@ -42,11 +42,11 @@ int btic_helper(const binary_tree_t *tree, size_t index, size_t size)
 }
 
 /**
- * binary_tree_size - measures the size of a binary tree
- * @tree: tree to measure the size of
+ * binary_tree_size - measures the size of the binary tree
+ * @tree: tree to measure the size
  *
- * Return: size of the tree
- *         0 if tree is NULL
+ * Return: size 
+ *         0 when tree is NULL
  */
 size_t binary_tree_size(const binary_tree_t *tree)
 {

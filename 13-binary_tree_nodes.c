@@ -1,11 +1,11 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_nodes - counts the nodes with at least 1 child in a binary tree
- * @tree: tree to count the nodes from
+ * binary_tree_nodes - the nodes with at least 1 child in a binary tree is count
+ * @tree: the nodes from which the tree is count
  *
  * Return: number of nodes counted
- *         0 if tree is NULL
+ *         0 when tree is NULL
  */
 size_t binary_tree_nodes(const binary_tree_t *tree)
 {
@@ -16,11 +16,11 @@ size_t binary_tree_nodes(const binary_tree_t *tree)
 }
 
 /**
- * binary_tree_size - measures the size of a binary tree
- * @tree: tree to measure the size of
+ * binary_tree_size - the size of a binary tree to be weighed
+ * @tree:  the size of tree is measure
  *
  * Return: size of the tree
- *         0 if tree is NULL
+ *         0 when tree is NULL
  */
 size_t binary_tree_size(const binary_tree_t *tree)
 {
@@ -31,11 +31,11 @@ size_t binary_tree_size(const binary_tree_t *tree)
 }
 
 /**
- * binary_tree_leaves - counts the leaves in a binary tree
+ * binary_tree_leaves - counts number of the leaves in the binary tree
  * @tree: tree to count the leaves from
  *
  * Return: number of leaves
- *         0 if tree is NULL
+ *         0 when tree is NULL
  */
 size_t binary_tree_leaves(const binary_tree_t *tree)
 {
