@@ -11,6 +11,7 @@
  */
 binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value)
 {
+<<<<<<< HEAD
 	if (parent == NULL)
 	{
 		return NULL;
@@ -22,15 +23,37 @@ binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value)
 		return NULL;
 	}
 
+=======
+	binary_tree_t *new_node;
+	if (!parent)
+	{
+		return (NULL);
+	}
+	new_node = malloc(sizeof(binary_tree_t));
+	if (!new_node)
+	{
+		return (NULL);
+	}
+
+>>>>>>> refs/remotes/origin/main
 	new_node -> n = value;
 	new_node -> parent = parent;
 	new_node -> left = NULL;
 	new_node -> right = parent -> right;
 	parent -> right = new_node;
 
+<<<<<<< HEAD
 	if (new_node -> right != NULL)
 	{
 		parent -> right -> parent = new_node;
 	}
 	return new_node;
 }
+=======
+	if (new_node -> right)
+	{
+		new_node -> right -> parent = new_node;
+	}
+	return new_node;
+}
+>>>>>>> refs/remotes/origin/main
